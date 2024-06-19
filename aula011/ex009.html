@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condições em JS</title>
+</head>
+<body>
+    <h1>Sistema de Multas</h1>
+    Velocidade do carro: <input type="number" name="tvel" id="tvel">
+    <input type="button" value="Verificar" onclick="calcular()">
+
+    <div id="res">
+
+    </div>
+
+    <script>
+        
+
+        function calcular(){
+            var tvel = window.document.getElementById('tvel')
+            var res = document.getElementById('res')
+            var vel = Number(tvel.value)
+
+            if (vel > 60){
+                res.innerHTML += 'Você está acima da velocidade, <strong>MULTADO!</strong>'
+            }
+
+            res.innerHTML += `<p>A sua velocidade atual é de <strong>${vel}Km/h </strong></p>`
+
+            res.innerHTML += '<p>O limite de velocidade é de 60Km/h</p>'
+        }
+    </script>
+</body>
+</html>
