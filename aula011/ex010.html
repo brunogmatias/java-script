@@ -7,24 +7,25 @@
 </head>
 <body>
     <h1>Nacionalidade</h1>
-    <p>Digite o país:</p>
+    <p>Digite o país: </p>
     <input type="text" name="pais" id="pais">
     <input type="button" value="Enviar" onclick="Enviar()">
-    <div id="p"> 
+    
+    <div id="res"> 
         
     </div>
 
     <script>
         function Enviar(){
             var pais = document.getElementById('pais')
-            
-            if(pais != Brasil){
-                var p = document.getElementById('p')
-                p.innerHTML = `Você mora no ${pais} e é brasileiro!`
+            var res = document.getElementById('res')
+            var paistxt = Text(pais.value)
+
+            if(paistxt == Brasil){
+                res.innerHTML = `<p>Você mora no ${pais} e é estrangeiro!</p>`
             
             }else{
-                var p = document.getElementById('p')
-                p.innerHTML = `Você mora no ${pais} e é estrangeiro!`
+                res.innerHTML = `<p>Você mora no ${pais} e é brasileiro!</p>`
             }
         }
 
