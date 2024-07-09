@@ -10,7 +10,7 @@ function carregar(){
     msg.innerHTML = `Agora são exatamente ${hora} horas e ${minuto} minutos.`
     
     if (hora >= 0 && hora < 12){
-        img.src = 'manha.png' 
+        img.src = 'manha.png'
         msg2.innerHTML += 'Bom dia!'
         document.body.style.background = '#dddd62'
     }else if (hora >= 12 && hora <= 18){

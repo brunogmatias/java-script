@@ -17,13 +17,12 @@ section{
     margin: auto;
     height: 370px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.459);
-    
 }
 
 footer{
     color: rgba(255, 255, 255, 0.734);
     font-style: italic;
-    font-weight: normal;
+    font-weight: normal;  
 }
 div{
     padding: 14px;
