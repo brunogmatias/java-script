@@ -1,4 +1,6 @@
-function cor(){
-   var cor = document.getElementById('cor1')
-   var cor = style.color.background = green
+var a = window.document.getElementById('cor1')
+a.addEventListener('click', clicar)
+
+function clicar(){
+   a.style.background = 'green'
 }
