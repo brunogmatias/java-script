@@ -16,18 +16,8 @@ section{
     border-radius: 10px;
     width: 430px;
     margin: auto;
-    height: 500px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.459);
     padding: 20px;
-}
-
-p{
-    padding-bottom: 10px;
-}
-
-img{
-    padding-top: 10px;
-    padding-left: 50px;
 }
 
 footer{
@@ -37,5 +27,5 @@ footer{
     text-align: center;
 }
 div#res{
-    padding: 50px;
+    text-align: center;
 }
