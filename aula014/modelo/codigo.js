@@ -1,15 +1,19 @@
 function clicar(){
-    var n1 = document.getElementById('ini')
-    var n2 = document.getElementById('fim')
-    var pas = document.getElementById('pas')
+    let ini = document.getElementById('txti')
+    let fim = document.getElementById('txtf')
+    let pas = document.getElementById('txtp')
     
     var res = document.getElementById('res')
 
-    var n1 = Number(value.n1)
-    var n2 = Number(value.n2)
-    var pas = Number(value.pas)
+    var i = Number(ini.value)
+    var f = Number(fim.value)
+    var p = Number(pas.value)
 
-    for(var c = n1 ; n1<=n2 ; c+=pas){
-        res.innerHTML = `${pas} `
-}
+    if(i > f || p > f){
+        window.alert("ERRO: coloque valores apropriados!")
+    }else{
+
+    for(let c = i ; c <=f ; c += p){
+        res.innerHTML += ` ${c} `
+}}
 }

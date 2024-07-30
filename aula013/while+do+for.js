@@ -23,6 +23,6 @@ while(c <= 6){
 var n1 = 1
 var n2 = 8
 var passo = 2
-for(var c=n1 ; n1<=n2; c += passo){
+for(var c=n1 ; n1<=n2; n1 += passo){
     console.log(`${n1}`)
 }
