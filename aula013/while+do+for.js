@@ -1,6 +1,6 @@
 
 
-for(var c=1 ; c <=7 ; c++){
+/*for(var c=1 ; c <=7 ; c++){
     console.log(`Passo ${c}`)
 }
 
@@ -19,3 +19,9 @@ while(c <= 6){
     console.log(`Passo ${c}`)
     c++
 }*/
+
+var n2 = 8
+var passo = 2
+for(var n1=1 ; n1<=n2; n1 += passo){
+    console.log(`${n1}`)
+}
