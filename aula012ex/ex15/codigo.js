@@ -6,7 +6,9 @@ function verificar(){
     var txtp = document.getElementById('txtp')
     var img = document.createElement('img')
         img.setAttribute('id','foto')
-        
+    
+    
+
     if(fano.value > ano){
         window.alert('[ERRO] Verifique os dados e tente novamente!')
     }else{
