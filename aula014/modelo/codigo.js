@@ -14,6 +14,6 @@ function clicar(){
     }else{
 
     for(let c = i ; c <=f ; c += p){
-        res.innerHTML += ` ${c} `
+        res.innerHTML += `Contando ${c} `
 }}
 }
