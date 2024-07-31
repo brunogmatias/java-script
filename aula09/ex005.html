@@ -13,13 +13,25 @@
     </style>
 </head>
 <body>
-    <h1>Iniciando Estudos</h1>
+    <h1 id="tema" onmousedown="mudatexto()">Iniciando Estudos</h1>
     <p>Aqui vai o resultado</p>
-    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
-    <div id="d">Clique em mim</div>
+    <p id="res">Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
+    <div id="d" onclick="mudacor()">Clique em mim</div>
     <script>
         var d = window.document.querySelector('div#d')
         d.style.color = 'black'
+
+        function mudacor(){
+            d.style.color = 'yellow'
+        }
+
+        function mudatexto(){
+
+            var m = document.querySelector('h1#tema')
+            document.write(m.innerHTML='Algo')
+            
+        }
+        
 
     </script>
 </body>
