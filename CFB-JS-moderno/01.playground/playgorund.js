@@ -7,16 +7,7 @@
 
    hora() */
 
-   function adicionar(){
-    
-     if(Number(n.value) > 100 || Number(n.value) == 0){
-         window.alert('error: Digite um valor!')
-     }else if(Number(n.value) < 100){
-         sel.push(n)
-     }
- }
-let n = 5
-let sel = []
+   let p = [5,7,8]
 
- sel.push(n)
- console.log(sel)
+   let a = p.length
+   console.log(p.length)

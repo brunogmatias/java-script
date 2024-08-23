@@ -6,7 +6,7 @@ console.log(`Os valores da array em ordem crescente são: ${num.sort()} \nO seu 
  /* for(var c = 0; c < num.length ; c++){
     console.log(num[c])
 } */
-console.log(`Aqui estão seus valores:`)
+console.log(`Aqui estão seus valores: `)
 for(var c in num){
     console.log(num[c])
 }
